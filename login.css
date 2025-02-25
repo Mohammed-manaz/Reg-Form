@@ -6,6 +6,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+
 }
 .container{
     justify-content:center ;
@@ -22,7 +23,11 @@ body{
     font-size: 17.5px;
     /* border-radius: 10px; */
     position: relative;
-    /* bottom: 500px; */}
+    /* bottom: 500px; */
+    margin-left: 270px;
+    border-radius: 20px;
+}
+    
     
 .rform{
     display: flex;
@@ -91,15 +96,18 @@ button:hover {
 
 .image{
     width: 60%;
+    
     /* border: 1px solid ; */
     /* padding-right: 50px; */
 
 }
 .image img{
     width: 100%;
+    border-radius: 10px;
     
 }
 h1{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: honeydew;
+    text-align: center;
 }
